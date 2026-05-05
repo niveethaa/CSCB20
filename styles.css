@@ -1,0 +1,136 @@
+body {
+    background-color: white;
+}
+
+.headerclass{
+    color: brown;
+    position: fixed;
+}
+
+h1 {
+    color: purple;
+    background-color: white;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+#heading-container {
+    border: 3px solid yellow;
+    background-color: lightblue;
+    color: white;
+}
+h2 {
+  color:  purple; 
+}
+
+h3 {
+    color: purple;
+}
+
+h3 {
+    color: purple;
+}
+.button {
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+}
+img {
+    border: 3px solid black;
+    padding: 5px;
+}
+
+a:hover {
+    color: blue;
+
+}
+
+a:unvisited, a:link {
+    color: black;
+}
+
+div.navbar {
+    background-color: purple;
+    white-space: nowrap;
+  }
+  
+div.navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 160px;
+
+  }
+  
+div.navbar a:hover {
+    background-color: grey;
+  }
+
+.outline {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    width: 1050px;
+    background-color: purple;
+    padding: 10px;
+  }
+  
+.outline > div {
+    background-color: lightgray;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    font-size: 20px;
+  }
+.assignments {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    width: 1050px;
+    background-color: purple;
+    padding: 10px;
+  }
+  
+.assignments > div {
+    background-color: lightgrey;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    font-size: 20px;
+  }
+.heading {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    width: 1330px;
+    background-color: purple;
+    padding: 10px;
+  }
+  
+.heading > div {
+    background-color: lightgrey;
+    text-align: left;
+    width: 285px;
+    padding: 20px;
+    font-size: 18px;
+  }
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: purple;
+    text-align: center;
+    border: 3px solid black;
+ }
+
+p {
+    color: black;
+}
+
